@@ -4,7 +4,7 @@ This example app demonstrates all the features of the `image_360_viewer` package
 
 ## 🎥 Video Demonstration
 
-**📱 Demo Video:** `assets/image_360_viewer.mp4`
+**📱 Demo Video:** [Watch on GitHub](https://github.com/user-attachments/assets/908cbc70-41e8-4c67-9166-1ed6bdc3daa1)
 
 This video demonstrates all the interactive features of the Image360Viewer package using the Under Armour product images included in this example app.
 
@@ -15,7 +15,7 @@ This video demonstrates all the interactive features of the Image360Viewer packa
 - Gyroscope control for device tilt rotation
 - Interactive UI controls and real-time property changes
 
-**To view:** Open the video file directly or run this example app to see it in action!
+**To experience it yourself:** Run this example app with `flutter run` to interact with all features!
 
 ## Features Demonstrated
 

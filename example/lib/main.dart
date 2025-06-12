@@ -103,7 +103,7 @@ class _ExampleHomePageState extends State<ExampleHomePage> {
 
   // Generate a unique key based on current settings to force rebuild
   String get _viewerKey =>
-      'viewer_${_selectedProduct}_${_autoRotate}_${_zoomEnabled}_${_gyroEnabled}_${_reverseOnEnd}_${_shadowEnabled}_${_autoRotateSpeed.round()}_${_gyroSensitivity}';
+      'viewer_${_selectedProduct}_${_autoRotate}_${_zoomEnabled}_${_gyroEnabled}_${_reverseOnEnd}_${_shadowEnabled}_${_autoRotateSpeed.round()}_$_gyroSensitivity';
 
   @override
   Widget build(BuildContext context) {

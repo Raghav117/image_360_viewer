@@ -17,7 +17,7 @@ void main() {
       MaterialApp(
         home: Scaffold(
           body: Image360Viewer.asset(
-            imageAssetList: [
+            imageAssetList: const [
               'assets/test/1.png',
               'assets/test/2.png',
               'assets/test/3.png',

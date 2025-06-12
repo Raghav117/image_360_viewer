@@ -2,11 +2,11 @@ name: image_360_viewer
 description: >-
   A powerful Flutter widget for interactive 360° object rotation with swipe gestures, 
   pinch-to-zoom, and gyroscope support. Load image sequences from assets, files, or network URLs.
-version: 1.0.0
-homepage: https://github.com/raghavg1999/image_360_viewer
-repository: https://github.com/raghavg1999/image_360_viewer
-issue_tracker: https://github.com/raghavg1999/image_360_viewer/issues
-documentation: https://github.com/raghavg1999/image_360_viewer#readme
+version: 1.0.1
+homepage: https://github.com/raghav117/image_360_viewer
+repository: https://github.com/raghav117/image_360_viewer
+issue_tracker: https://github.com/raghav117/image_360_viewer/issues
+documentation: https://github.com/raghav117/image_360_viewer#readme
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -103,3 +103,4 @@ flutter:
 platforms:
   android:
   ios:
+  web:

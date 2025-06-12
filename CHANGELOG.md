@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2024-01-20
+
+### Added
+- 🎥 **Embedded Video Demo**: Added GitHub-hosted video demonstration that plays directly in README.md
+- 📺 **Interactive Demo URL**: Integrated video URL `https://github.com/user-attachments/assets/908cbc70-41e8-4c67-9166-1ed6bdc3daa1`
+- 🎬 **Enhanced Documentation**: Improved README.md with better video presentation and user experience
+- 🌐 **Web Platform Support**: Added official Web platform support alongside Android and iOS
+
+### Changed
+- 📖 **README.md Updates**: 
+  - Replaced local video file reference with GitHub-hosted video URL
+  - Enhanced "Live Demo" section with embedded video player
+  - Improved "Example App & Demo" section with clickable video link
+  - Updated example README.md with consistent video references
+  - Clarified platform support: Android, iOS, and Web
+  - Updated gyroscope feature descriptions to specify mobile-only (Android/iOS)
+- 🔗 **Better User Experience**: Video now plays directly in GitHub README without requiring file downloads
+- 📱 **Mobile-Friendly**: Video demonstration works seamlessly on mobile GitHub interface
+
+### Technical
+- Video hosted on GitHub CDN for fast loading and reliability
+- Added Web platform to pubspec.yaml platforms section
+- Maintained backward compatibility with all existing features
+- No breaking changes to API or functionality
+
 ## [1.0.0] - 2024-01-20
 
 ### Added

@@ -87,8 +87,9 @@ class Image360ViewModel extends ChangeNotifier {
   }
 
   Future<void> _preloadAssetImages() async {
-    if (_config.imageAssetList == null || _config.imageAssetList!.isEmpty)
+    if (_config.imageAssetList == null || _config.imageAssetList!.isEmpty) {
       return;
+    }
 
     for (int i = 0; i < _config.imageAssetList!.length; i++) {
       final imagePath = _config.imageAssetList![i];
