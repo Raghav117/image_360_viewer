@@ -71,7 +71,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  image_360_viewer: ^1.0.1
+  image_360_viewer: ^1.0.2
 ```
 
 Then run:

@@ -5,6 +5,39 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2025-01-27
+
+### Added
+- 🔧 **Java 17 Support**: Updated Android build configuration to use Java 17 for better compatibility
+- 🚀 **Kotlin 2.1.0 Support**: Upgraded Kotlin version from 1.8.22 to 2.1.0 for latest language features
+
+### Changed
+- 📦 **Dependencies Updated**:
+  - `sensors_plus`: 6.1.1 → 7.0.0 (latest major version)
+  - `flutter_lints`: 4.0.0 → 6.0.0 (latest linting rules)
+  - All transitive dependencies updated to latest compatible versions
+- 🏗️ **Android Configuration**:
+  - Updated Java compatibility from Java 11 to Java 17
+  - Fixed Android namespace duplication issue
+  - Updated Kotlin target to Java 17
+  - Upgraded Kotlin version from 1.8.22 to 2.1.0
+- 📝 **Code Quality**:
+  - Fixed linting issues and improved code analysis
+  - Removed unnecessary library declarations
+  - Enhanced documentation structure
+
+### Fixed
+- 🐛 **Android Package Naming**: Fixed duplicated namespace in Android configuration
+- 🧹 **Code Analysis**: Resolved all linting warnings and errors
+- 📱 **Build Compatibility**: Ensured compatibility with latest Android development tools
+
+### Technical Details
+- **SDK Requirements**: `sdk: '>=3.0.0 <4.0.0'` (maintained original minimum)
+- **Flutter Requirements**: `flutter: ">=3.10.0"` (maintained original minimum)
+- **Android Java Version**: Java 17
+- **Kotlin Version**: 2.1.0 (upgraded from 1.8.22)
+- **All Dependencies**: Updated to latest compatible versions
+
 ## [1.0.1] - 2024-01-20
 
 ### Added
